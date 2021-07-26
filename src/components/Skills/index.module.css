@@ -1,0 +1,47 @@
+.techBackground {
+  background-color: #5461c3;
+  overflow: hidden;
+}
+
+.techContainer {
+  /* padding: 3rem 0; */
+  text-align: center;
+  /* background-color: #5461c3; */
+}
+
+.heading {
+  padding-top: 3rem;
+  color: white;
+}
+
+.skillContainer {
+  text-align: left;
+  color: white;
+  display: block;
+}
+
+.skillCategory {
+  font-size: 1.4rem;
+}
+.multipleSkillsContainer {
+}
+
+.individualSkillContainer {
+  display: inline-block;
+  margin: 1.5rem;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
+
+.skillImage {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 1rem;
+}
+.skillTitle {
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}

@@ -5,27 +5,22 @@ const ParticlesAnimation = () => {
   return (
     <Particles
       params={{
+        // fps_limit: 60,
         particles: {
+          color: { value: "#5461c3" },
+          links: { color: "#5461c3", distance: 150, enable: true, opacity: 1, width: 1 },
           number: {
-            value: 37,
+            value: 75,
           },
           size: {
             value: 1,
           },
         },
-        // "interactivity": {
-        //     "events": {
-        //         "onhover": {
-        //             "enable": true,
-        //             "mode": "repulse"
-        //         }
-        //     }
-        // },
         shape: {
           type: "circle",
           stroke: {
-            width: 0,
-            color: "#5461C3",
+            width: 1,
+            color: "#5461c3",
           },
           polygon: {
             nb_sides: 5,
@@ -37,7 +32,7 @@ const ParticlesAnimation = () => {
           },
         },
         opacity: {
-          value: 0.2,
+          value: 1,
           random: false,
           anim: {
             enable: false,
@@ -49,13 +44,13 @@ const ParticlesAnimation = () => {
         line_linked: {
           enable: true,
           distance: 150,
-          color: "#5461C3",
-          opacity: 0.4,
+          color: "#5461c3",
+          opacity: 1,
           width: 1,
         },
         move: {
           enable: true,
-          speed: 6,
+          speed: 1,
           direction: "none",
           random: false,
           straight: false,
@@ -68,7 +63,7 @@ const ParticlesAnimation = () => {
           },
         },
       }}
-      className="particles-animation-config"
+      style={{ position: "absolute" }}
     />
   );
 };

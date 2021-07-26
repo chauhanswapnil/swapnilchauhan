@@ -3,11 +3,11 @@ import { Container } from "react-bootstrap";
 import styles from "./index.module.css";
 import Typist from "react-typist";
 import { motion } from "framer-motion";
-import Particles from "react-particles-js";
 import ParticlesAnimation from "../ParticlesAnimation";
 const Index = () => {
   return (
     <div>
+      <ParticlesAnimation className={styles.particles} />
       <Container>
         <div className={styles.sectionContainer}>
           <div className={styles.greetingsContainer}>

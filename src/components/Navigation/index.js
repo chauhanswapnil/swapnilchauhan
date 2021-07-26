@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
+// import { Link } from "react-router-dom";
 import logo from "../../images/logo.png";
 import styles from "./index.module.css";
-import { motion, useCycle } from "framer-motion";
+// import { motion, useCycle } from "framer-motion";
 
 const Index = () => {
-  const [isOpen, setOpen] = useState(false);
+  // const [isOpen, setOpen] = useState(false);
 
   return (
     <nav className={styles.navbar}>

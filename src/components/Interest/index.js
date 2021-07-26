@@ -14,7 +14,7 @@ const Index = () => {
     <Container>
       <div className={styles.interestContainer}>
         <Fade bottom>
-          <h1 className={styles.heading}>Skills</h1>
+          <h1 className={styles.heading}>Interests</h1>
         </Fade>
         <Fade bottom>
           <h4 className={styles.subHeading}>Take a look at some of the things I love working on</h4>
