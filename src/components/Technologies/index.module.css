@@ -1,0 +1,45 @@
+.techBackground {
+  background-color: #5461c3;
+  overflow: hidden;
+}
+
+.techContainer {
+  /* padding: 3rem 0; */
+  text-align: center;
+  /* background-color: #5461c3; */
+}
+
+.heading {
+  padding-top: 3rem;
+  color: white;
+}
+
+.subHeading {
+  font-size: 1.1rem;
+  color: #47484e;
+}
+
+.interestSubContainer {
+  padding: 3rem 0;
+}
+
+.interestSecondRow {
+  /* padding-top: 3rem; */
+}
+.interestImage {
+  margin-top: 1rem;
+  height: 1.3rem;
+  /* width: 1.8rem; */
+}
+
+.interestName {
+  color: #5461c3;
+  padding: 1rem 0;
+}
+
+.interestDesc {
+  color: #47484e;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  padding-bottom: 4rem;
+}

@@ -1,0 +1,21 @@
+.sectionContainer {
+  height: 90vh;
+  /* background-color: antiquewhite; */
+}
+
+.greetingsContainer {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  color: #47484e;
+}
+
+.greetings {
+}
+
+.name {
+  color: #5461c3;
+  display: inline-block;
+}
+
+.greetingsline2 {
+}
