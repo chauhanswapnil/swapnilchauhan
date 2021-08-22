@@ -4,6 +4,7 @@ import HiSection from "./components/HiSection";
 import About from "./components/About";
 import Interest from "./components/Interest";
 import Skills from "./components/Skills";
+import Articles from "./components/Articles";
 const App = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const App = () => {
       <About />
       <Interest />
       <Skills />
+      <Articles />
     </div>
   );
 };

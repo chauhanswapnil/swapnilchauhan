@@ -16,6 +16,16 @@ const ParticlesAnimation = () => {
             value: 1,
           },
         },
+        interactivity: {
+          detect_on: "window",
+          events: {
+            onhover: {
+              enable: true,
+              mode: "repulse",
+            },
+            resize: true,
+          },
+        },
         shape: {
           type: "circle",
           stroke: {
