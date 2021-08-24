@@ -22,8 +22,7 @@
 
 .skillCategory {
   font-size: 1.4rem;
-}
-.multipleSkillsContainer {
+  text-align: left;
 }
 
 .individualSkillContainer {
@@ -44,4 +43,10 @@
   margin: 0;
   padding: 0;
   font-size: 1rem;
+}
+
+@media only screen and (max-width: 765px) {
+  .multipleSkillsContainer {
+    text-align: center;
+  }
 }
