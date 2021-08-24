@@ -11,7 +11,7 @@ import Fade from "react-reveal/Fade";
 
 const Index = () => {
   return (
-    <Container>
+    <Container id="articles">
       <div className={styles.interestContainer}>
         <Fade bottom>
           <h1 className={styles.heading}>Articles</h1>

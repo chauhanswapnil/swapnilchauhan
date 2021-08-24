@@ -10,7 +10,7 @@ const ParticlesAnimation = () => {
           color: { value: "#5461c3" },
           links: { color: "#5461c3", distance: 150, enable: true, opacity: 1, width: 1 },
           number: {
-            value: 75,
+            value: 45,
           },
           size: {
             value: 1,
@@ -60,7 +60,7 @@ const ParticlesAnimation = () => {
         },
         move: {
           enable: true,
-          speed: 1,
+          speed: 0.5,
           direction: "none",
           random: false,
           straight: false,

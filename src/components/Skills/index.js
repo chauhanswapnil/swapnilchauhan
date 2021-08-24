@@ -9,7 +9,7 @@ const Index = () => {
 
   const SkillsRender = skillType.map((skill, idx) => {
     return (
-      <div className={styles.skillContainer}>
+      <div className={styles.skillContainer} id="skills">
         <Fade left>
           <h2 className={styles.skillCategory}>{skill}</h2>
         </Fade>

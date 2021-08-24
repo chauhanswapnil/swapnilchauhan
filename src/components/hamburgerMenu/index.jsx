@@ -15,7 +15,7 @@ const MenuContainer = styled(motion.div)`
   /* height: 100%; */
   background-color: #5461c3;
   z-index: 90;
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   transform: translateX(4em);

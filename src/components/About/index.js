@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 
 const Index = () => {
   return (
-    <div className={styles.aboutBackground}>
+    <div className={styles.aboutBackground} id="about">
       <Container>
         <div className={styles.box}>
           <div className={`${styles.wave} ${styles.one}`}> </div>

@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import React from "react";
 import styled from "styled-components";
 
+import { HashLink } from "react-router-hash-link";
+
 const NavMenuContainer = styled.div`
   width: 100%;
   display: flex;
@@ -81,7 +83,13 @@ export function NavMenu({ isOpen }) {
             },
           }}
         >
-          <a href="/about">About Me</a>
+          <HashLink
+            to="#about"
+            scroll={(el) => el.scrollIntoView({ behavior: "auto", alignTo: "true" })}
+          >
+            About Me
+          </HashLink>
+          {/* <a href="/about">About Me</a> */}
         </NavLink>
         <NavLink
           initial={false}
@@ -97,7 +105,13 @@ export function NavMenu({ isOpen }) {
             },
           }}
         >
-          <a href="/interests">Interests</a>
+          <HashLink
+            to="#interests"
+            scroll={(el) => el.scrollIntoView({ behavior: "auto", alignTo: "true" })}
+          >
+            Interests
+          </HashLink>
+          {/* <a href="/interests">Interests</a> */}
         </NavLink>
         <NavLink
           initial={false}
@@ -113,7 +127,12 @@ export function NavMenu({ isOpen }) {
             },
           }}
         >
-          <a href="/skills">Skills</a>
+          <HashLink
+            to="#skills"
+            scroll={(el) => el.scrollIntoView({ behavior: "auto", alignTo: "true" })}
+          >
+            Skills
+          </HashLink>
         </NavLink>
         <NavLink
           initial={false}
@@ -129,7 +148,12 @@ export function NavMenu({ isOpen }) {
             },
           }}
         >
-          <a href="/articles">Articles</a>
+          <HashLink
+            to="#articles"
+            scroll={(el) => el.scrollIntoView({ behavior: "auto", alignTo: "true" })}
+          >
+            Articles
+          </HashLink>
         </NavLink>
         <NavLink
           initial={false}
@@ -145,7 +169,12 @@ export function NavMenu({ isOpen }) {
             },
           }}
         >
-          <a href="/projects">Projects</a>
+          <HashLink
+            to="/projects"
+            scroll={(el) => el.scrollIntoView({ behavior: "auto", alignTo: "true" })}
+          >
+            Projects
+          </HashLink>
         </NavLink>
       </NavList>
     </NavMenuContainer>
