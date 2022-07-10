@@ -12,9 +12,9 @@ const Index = () => {
   return (
     <nav className={styles.navbar}>
       <img className={styles.logo} src={logo} alt="Swapnil Logo" />
-      <div className={styles.hamburgerMenu}>
+      {/* <div className={styles.hamburgerMenu}>
         <HamburgerMenu />
-      </div>
+      </div> */}
     </nav>
   );
 };

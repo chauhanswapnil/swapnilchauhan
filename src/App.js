@@ -6,12 +6,13 @@ import About from "./components/About";
 import Interest from "./components/Interest";
 import Skills from "./components/Skills";
 import Articles from "./components/Articles";
+import Resume from "./components/Resume";
 import { useLocation } from "react-router";
 const App = (props) => {
   const location = useLocation();
   useEffect(() => {
     return () => {
-      console.log(`Locations is ${props.location.pathname}`);
+      // console.log(`Locations is ${props.location.pathname}`);
     };
   }, []);
   return (
@@ -20,8 +21,10 @@ const App = (props) => {
       <HiSection />
       <About />
       <Interest />
+
       <Skills />
-      <Articles />
+      <Resume />
+      {/* <Articles /> */}
     </div>
   );
 };
